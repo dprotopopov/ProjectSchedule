@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="ProjectSchedule.Module.BusinessObjects.Comment" IsDesigned="True" />
+  </BOModel>
+  <Views>
+    <DetailView Id="DefaultCommentView" ClassName="ProjectSchedule.Module.BusinessObjects.Comment" AllowDelete="False" AllowEdit="False" AllowNew="False" IsNewNode="True">
+      <Items IsNewNode="True">
+        <PropertyEditor Id="DateTime" PropertyName="DateTime" AllowEdit="False" Index="0" IsNewNode="True" />
+        <PropertyEditor Id="ProjectMember" Caption="ProjectMember" PropertyName="ProjectMember" Index="1" IsNewNode="True" />
+        <PropertyEditor Id="Text" PropertyName="Text" AllowEdit="False" Index="2" IsNewNode="True" />
+        <PropertyEditor Id="Attachments" Caption="Attachments" PropertyName="Attachments" AllowEdit="False" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+          <LayoutItem Id="DateTime" ViewItem="DateTime" Index="0" SizeConstraintsType="Default" RelativeSize="1" IsNewNode="True" />
+          <LayoutItem Id="ProjectMember" ViewItem="ProjectMember" SizeConstraintsType="Default" Index="1" RelativeSize="1" IsNewNode="True" />
+          <LayoutItem Id="Text" ViewItem="Text" Index="2" SizeConstraintsType="Default" RelativeSize="100" IsNewNode="True" />
+        </LayoutGroup>
+        <LayoutItem Id="Attachments" ViewItem="Attachments" SizeConstraintsType="Default" Index="1" RelativeSize="4" VerticalAlign="NotSet" IsNewNode="True" />
+      </Layout>
+      <Variants IsNewNode="True">
+        <Variant Id="Default" ViewID="DefaultCommentView" Caption="Default" Index="0" IsNewNode="True" />
+        <Variant Id="Detail" ViewID="ProjectSchedule.Module.BusinessObjects.Comment_DetailView" Caption="Detail" Index="1" IsNewNode="True" />
+      </Variants>
+    </DetailView>
+    <DetailView Id="ProjectSchedule.Module.BusinessObjects.Comment_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="11" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Comment" RelativeSize="51" ImageName="" Caption="Project Member" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="ProjectMember" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ProjectMember" />
+            </LayoutGroup>
+            <LayoutGroup Id="Note" RelativeSize="48" ImageName="" Caption="Note" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="DateTime" SizeConstraintsType="Default" RelativeSize="100" Index="0" ViewItem="DateTime" />
+              <LayoutItem Id="Author" SizeConstraintsType="Default" RelativeSize="47" ViewItem="Author" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="5" ImageName="" Caption="Text" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutItem Id="Text" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Text" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="82" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="ProjectTasks" RelativeSize="100" ImageName="BO_Task" Caption="Project Tasks" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="ProjectTasks" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="ProjectTasks" />
+            </LayoutGroup>
+            <LayoutGroup Id="Attachments" RelativeSize="100" ImageName="BO_FileAttachment" Caption="Attachments" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="Attachments" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Attachments" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.Comment_ListView" MasterDetailMode="ListViewAndDetailView" MasterDetailView="DefaultCommentView" DetailViewID="DefaultCommentView">
+      <Columns>
+        <ColumnInfo Id="DateTime" Index="0" />
+        <ColumnInfo Id="Text" Index="1" />
+        <ColumnInfo Id="ProjectMember" Index="2" />
+      </Columns>
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.Comment_LookupListView">
+      <Columns>
+        <ColumnInfo Id="DateTime" PropertyName="DateTime" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="Text" SortOrder="Descending" Index="1" />
+        <ColumnInfo Id="ProjectMember" PropertyName="ProjectMember" Index="2" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_Comments_ListView">
+      <Columns>
+        <ColumnInfo Id="DateTime" Index="0" />
+        <ColumnInfo Id="Text" Index="1" />
+        <ColumnInfo Id="ProjectMember" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

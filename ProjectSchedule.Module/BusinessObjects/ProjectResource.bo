@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ProjectResource" IsDesigned="True" />
+  </BOModel>
+  <Views>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Icon" Index="-1" Caption="Icon" PropertyName="Icon" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

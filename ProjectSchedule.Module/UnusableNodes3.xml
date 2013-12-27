@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DefaultTaskView">
+      <Items Id="Items">
+        <PropertyEditor Id="Files" Caption="Files" PropertyName="Files" />
+        <PropertyEditor Id="Comment" Caption="Comment" PropertyName="Comment" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

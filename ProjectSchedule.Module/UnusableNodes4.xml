@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DefaultTaskView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Form">
+          <LayoutItem Id="Files" ViewItem="Files" />
+          <LayoutItem Id="Comment" ViewItem="Comment" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

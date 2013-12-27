@@ -1,0 +1,9 @@
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\bin\Debug\ProjectSchedule.Module.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\bin\Debug\ProjectSchedule.Module.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.Controllers.DefaultViewActions.resources
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.ProjectScheduleModule.resources
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.csproj.GenerateResource.Cache
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.dll.licenses
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Module\obj\Debug\ProjectSchedule.Module.csprojResolveAssemblyReference.cache

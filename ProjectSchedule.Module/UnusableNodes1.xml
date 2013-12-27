@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="ProjectSchedule.Module.BusinessObjects.TaskMemberResource" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceTransfer" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceUsage" IsDesigned="True" />
+  </BOModel>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Budget">
+        <Items Id="Items">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceUsage_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceUsage_ListView" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceTransfer_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceTransfer_ListView" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResource_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.TaskMemberResource_ListView" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResource_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceTransfer_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceUsage_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

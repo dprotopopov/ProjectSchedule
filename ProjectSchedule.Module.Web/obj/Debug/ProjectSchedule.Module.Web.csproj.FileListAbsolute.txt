@@ -1,0 +1,10 @@
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\bin\Debug\ProjectSchedule.Module.Web.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\bin\Debug\ProjectSchedule.Module.Web.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\bin\Debug\ProjectSchedule.Module.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\bin\Debug\ProjectSchedule.Module.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.csprojResolveAssemblyReference.cache
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.ProjectScheduleAspNetModule.resources
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.csproj.GenerateResource.Cache
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.dll.licenses
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Module.Web\obj\Debug\ProjectSchedule.Module.Web.pdb

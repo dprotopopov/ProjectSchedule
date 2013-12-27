@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.Member_ProjectEvents_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-25" SelectedIntervalEnd="2013-12-26" />
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_ProjectMemberResources_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Subject" Width="487" />
+        <ColumnInfo Id="AmountPlanned" Width="152" />
+        <ColumnInfo Id="AmountSpent" Width="152" />
+        <ColumnInfo Id="Member" Width="255" />
+        <ColumnInfo Id="ProjectTask" Width="180" />
+      </Columns>
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ProjectMemberResources_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Subject" Width="384" />
+        <ColumnInfo Id="AmountPlanned" Width="101" />
+        <ColumnInfo Id="AmountSpent" Width="101" />
+        <ColumnInfo Id="ProjectResource" Width="141" />
+        <ColumnInfo Id="Member" Width="145" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

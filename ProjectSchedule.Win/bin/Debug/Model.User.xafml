@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Options>
+    <PrintingSettings Margins="100, 100, 100, 100" PageHeaderFooter="&lt;XtraSerializer version=&quot;1.0&quot; application=&quot;XtraPrintingPageHeaderFooter&quot;&gt;&#xD;&#xA;  &lt;property name=&quot;Header&quot; isnull=&quot;true&quot; iskey=&quot;true&quot;&gt;&#xD;&#xA;    &lt;property name=&quot;Content&quot; iskey=&quot;true&quot; value=&quot;0&quot; /&gt;&#xD;&#xA;    &lt;property name=&quot;LineAlignment&quot;&gt;Near&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;Font&quot;&gt;Microsoft Sans Serif, 7.8pt&lt;/property&gt;&#xD;&#xA;  &lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;Footer&quot; isnull=&quot;true&quot; iskey=&quot;true&quot;&gt;&#xD;&#xA;    &lt;property name=&quot;Content&quot; iskey=&quot;true&quot; value=&quot;0&quot; /&gt;&#xD;&#xA;    &lt;property name=&quot;LineAlignment&quot;&gt;Near&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;Font&quot;&gt;Microsoft Sans Serif, 7.8pt&lt;/property&gt;&#xD;&#xA;  &lt;/property&gt;&#xD;&#xA;&lt;/XtraSerializer&gt;" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="13.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.DetailViewForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="DefaultCommentView" State="Normal" X="96" Y="96" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DefaultTaskView" State="Maximized" X="185" Y="85" Width="1400" Height="1003" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Kpi.KpiDefinition_DetailView" State="Normal" X="64" Y="64" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Kpi.KpiScorecard_DetailView" State="Normal" X="128" Y="128" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject_DetailView" State="Normal" X="96" Y="96" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole_DetailView" State="Normal" X="420" Y="212" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionObject_DetailView" State="Normal" X="64" Y="64" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser_DetailView" State="Normal" X="160" Y="160" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.Persistent.BaseImpl.Event_DetailView" State="Normal" X="160" Y="160" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.Persistent.BaseImpl.FileData_DetailView" State="Normal" X="455" Y="218" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.Persistent.BaseImpl.PersistentPermission_DetailView" State="Normal" X="128" Y="128" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="DevExpress.Persistent.BaseImpl.Task_DetailView" State="Normal" X="128" Y="128" Width="1220" Height="894" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Attachment_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.BudgetAccount_DetailView" State="Normal" X="192" Y="192" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.BudgetPlanningAndUsage_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.BudgetTransfer_DetailView" State="Normal" X="160" Y="160" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Comment_DetailView" State="Normal" X="427" Y="163" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Company_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Member_DetailView" State="Normal" X="96" Y="96" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectEvent_DetailView" State="Normal" X="96" Y="96" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_DetailView" State="Maximized" X="160" Y="160" Width="974" Height="792" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectMemberResource_DetailView" State="Normal" X="160" Y="160" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectMemberRole_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_DetailView" State="Normal" X="192" Y="192" Width="1288" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectRole_DetailView" State="Normal" X="160" Y="160" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_DetailView" State="Maximized" X="330" Y="240" Width="1046" Height="900" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.RoleType_DetailView" State="Normal" X="96" Y="96" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResource_DetailView" State="Normal" X="368" Y="168" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResourceUsage_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.TaskMemberRole_DetailView" State="Normal" X="32" Y="32" Width="934" Height="732" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="DevExpress.Persistent.BaseImpl.Party_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.BudgetAccount_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Member_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectRole_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.RoleType_LookupListView" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.TaskMemberResource_LookupListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Normal" X="763" Y="401" Width="420" Height="370" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.MainForm" DockManagerSettings="﻿&lt;XtraSerializer version=&quot;1.0&quot; application=&quot;DockManager&quot;&gt;&#xD;&#xA;  &lt;property name=&quot;#LayoutVersion&quot; /&gt;&#xD;&#xA;  &lt;property name=&quot;AutoHiddenPanelCaptionShowMode&quot;&gt;ShowForAllPanels&lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;Panels&quot; iskey=&quot;true&quot; value=&quot;1&quot;&gt;&#xD;&#xA;    &lt;property name=&quot;Item1&quot; isnull=&quot;true&quot; iskey=&quot;true&quot;&gt;&#xD;&#xA;      &lt;property name=&quot;Footer&quot; /&gt;&#xD;&#xA;      &lt;property name=&quot;Dock&quot;&gt;Left&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Header&quot; /&gt;&#xD;&#xA;      &lt;property name=&quot;XtraActiveChildID&quot;&gt;-1&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Tabbed&quot;&gt;false&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;DockedAsTabbedDocument&quot;&gt;false&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;TabsPosition&quot;&gt;Bottom&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;TabsScroll&quot;&gt;false&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;ImageIndex&quot;&gt;-1&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraZIndex&quot;&gt;1&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;FloatLocation&quot;&gt;@1,X=0@1,Y=0&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Visibility&quot;&gt;Visible&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Hint&quot; /&gt;&#xD;&#xA;      &lt;property name=&quot;Text&quot;&gt;Навигация&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;OriginalSize&quot;&gt;@3,Width=200@3,Height=200&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Options&quot; isnull=&quot;true&quot; iskey=&quot;true&quot;&gt;&#xD;&#xA;        &lt;property name=&quot;AllowFloating&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockLeft&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockRight&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockTop&quot;&gt;false&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockBottom&quot;&gt;false&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockFill&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;AllowDockAsTabbedDocument&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;ShowMaximizeButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;ShowAutoHideButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;ShowCloseButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;        &lt;property name=&quot;FloatOnDblClick&quot;&gt;true&lt;/property&gt;&#xD;&#xA;      &lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraParentID&quot;&gt;-1&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraSavedParentID&quot;&gt;-1&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraAutoHideContainerDock&quot;&gt;Float&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;ID&quot;&gt;24977e30-0ea6-44aa-8fa4-9abaeb178b5e&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraID&quot;&gt;0&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;TabText&quot; /&gt;&#xD;&#xA;      &lt;property name=&quot;DockVertical&quot;&gt;Default&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;XtraBounds&quot;&gt;@1,X=0@2,Y=62@3,Width=200@4,Height=1031&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;FloatSize&quot;&gt;@3,Width=146@3,Height=428&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;Count&quot;&gt;0&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;SavedDock&quot;&gt;Left&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;SavedIndex&quot;&gt;2&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;SavedMdiDocument&quot;&gt;false&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;SavedTabbed&quot;&gt;false&lt;/property&gt;&#xD;&#xA;      &lt;property name=&quot;FloatVertical&quot;&gt;false&lt;/property&gt;&#xD;&#xA;    &lt;/property&gt;&#xD;&#xA;  &lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;TopZIndexControls&quot; iskey=&quot;true&quot; value=&quot;4&quot;&gt;&#xD;&#xA;    &lt;property name=&quot;Item1&quot;&gt;DevExpress.XtraBars.BarDockControl&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;Item2&quot;&gt;System.Windows.Forms.StatusBar&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;Item3&quot;&gt;DevExpress.ExpressApp.Win.Templates.Controls.XafRibbonControl&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;Item4&quot;&gt;DevExpress.XtraBars.Ribbon.RibbonStatusBar&lt;/property&gt;&#xD;&#xA;  &lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;ActivePanelID&quot;&gt;-1&lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;DockingOptions&quot; isnull=&quot;true&quot; iskey=&quot;true&quot;&gt;&#xD;&#xA;    &lt;property name=&quot;CursorFloatCanceled&quot; isnull=&quot;true&quot; /&gt;&#xD;&#xA;    &lt;property name=&quot;HideImmediatelyOnAutoHide&quot;&gt;false&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;CloseActiveTabOnly&quot;&gt;true&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;CloseActiveFloatTabOnly&quot;&gt;false&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;ShowCaptionOnMouseHover&quot;&gt;false&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;ShowCaptionImage&quot;&gt;false&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;DockPanelInTabContainerTabRegion&quot;&gt;DockImmediately&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;ShowMaximizeButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;ShowAutoHideButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;ShowCloseButton&quot;&gt;true&lt;/property&gt;&#xD;&#xA;    &lt;property name=&quot;FloatOnDblClick&quot;&gt;true&lt;/property&gt;&#xD;&#xA;  &lt;/property&gt;&#xD;&#xA;  &lt;property name=&quot;AutoHideContainers&quot; iskey=&quot;true&quot; value=&quot;0&quot; /&gt;&#xD;&#xA;&lt;/XtraSerializer&gt;" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" X="303" Y="163" Width="1454" Height="1234" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="192" IsNewNode="True" />
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.Company_DetailView" State="Normal" X="679" Y="341" Width="648" Height="697" IsNewNode="True" />
+        <FormState Id="ProjectSchedule.Module.BusinessObjects.ProjectMemberRole_DetailView" State="Normal" X="679" Y="367" Width="562" Height="417" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+  <Views>
+    <ListView Id="_ProjectTask_Drilldown_ListView" ClassName="ProjectSchedule.Module.BusinessObjects.ProjectTask" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Comment" PropertyName="Comment" Index="-1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Description" PropertyName="Description" Index="-1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Subject" PropertyName="Subject" Index="0" Width="400" SortIndex="0" SortOrder="Ascending" IsNewNode="True" />
+        <ColumnInfo Id="DueDate" PropertyName="DueDate" Index="1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="StartDate" PropertyName="StartDate" Index="2" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="AssignedTo" PropertyName="AssignedTo" Index="3" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Index="4" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="PercentCompleted" PropertyName="PercentCompleted" Index="5" Width="50" IsNewNode="True" />
+        <ColumnInfo Id="DateCompleted" PropertyName="DateCompleted" Index="6" Width="70" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DefaultCommentView">
+      <Variants Current="Default" />
+    </DetailView>
+    <DetailView Id="DefaultTaskView">
+      <Variants Current="Default" />
+    </DetailView>
+    <DetailView Id="DevExpress.ExpressApp.Kpi.KpiDefinition_DetailView">
+      <Items>
+        <PropertyEditor Id="Objects" View="hhhh_ProjectTask_Drilldown_ListView" />
+      </Items>
+    </DetailView>
+    <ListView Id="DevExpress.Persistent.BaseImpl.Event_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-25" SelectedIntervalEnd="2013-12-26" />
+    <ListView Id="DevExpress.Persistent.BaseImpl.Resource_Events_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-25" SelectedIntervalEnd="2013-12-26" />
+    <ListView Id="hhhh_ProjectTask_Drilldown_ListView" ClassName="ProjectSchedule.Module.BusinessObjects.ProjectTask" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Comment" PropertyName="Comment" Index="-1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Description" PropertyName="Description" Index="-1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Subject" PropertyName="Subject" Index="0" Width="400" SortIndex="0" SortOrder="Ascending" IsNewNode="True" />
+        <ColumnInfo Id="DueDate" PropertyName="DueDate" Index="1" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="StartDate" PropertyName="StartDate" Index="2" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="AssignedTo" PropertyName="AssignedTo" Index="3" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Index="4" Width="70" IsNewNode="True" />
+        <ColumnInfo Id="PercentCompleted" PropertyName="PercentCompleted" Index="5" Width="50" IsNewNode="True" />
+        <ColumnInfo Id="DateCompleted" PropertyName="DateCompleted" Index="6" Width="70" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.Comment_ListView">
+      <Columns>
+        <ColumnInfo Id="DateTime" Width="86" SortIndex="0" SortOrder="Descending" />
+        <ColumnInfo Id="Text" Width="375" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="ProjectMember" Width="67" />
+      </Columns>
+      <SplitLayout SplitterPosition="546" />
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectEvent_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-23" SelectedIntervalEnd="2013-12-28" SchedulerViewType="WorkWeek" />
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_ProjectEvents_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-26" SelectedIntervalEnd="2013-12-27" />
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView">
+      <SplitLayout SplitterPosition="655" />
+    </ListView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ProjectEvents_ListView" TimeScale="00:30:00" SelectedIntervalStart="2013-12-23" SelectedIntervalEnd="2013-12-28" SchedulerViewType="WorkWeek" />
+  </Views>
+</Application>

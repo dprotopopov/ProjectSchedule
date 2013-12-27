@@ -1,0 +1,15 @@
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\Model.xafml
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Win.exe.config
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Win.exe
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Win.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Module.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Module.Win.dll
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Module.Win.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Module.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.csprojResolveAssemblyReference.cache
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.Properties.Resources.resources
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.ProjectScheduleWindowsFormsApplication.resources
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.csproj.GenerateResource.Cache
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.exe.licenses
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.exe
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.pdb

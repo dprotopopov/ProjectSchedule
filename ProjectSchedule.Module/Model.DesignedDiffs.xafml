@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="ProjectSchedule" Logo="ExpressAppLogo">
+  <BOModel>
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ApplicationRole" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.Attachment" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.BudgetAccount" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.BudgetPlanningAndUsage" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.BudgetTransfer" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.Company" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ProjectEvent" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ProjectRole" IsDesigned="True" />
+    <Class Name="ProjectSchedule.Module.BusinessObjects.TaskMemberRole" IsDesigned="True" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Index="0">
+        <Items>
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView" Index="0" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectEvent_ListView" Index="1" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.Comment_ListView" Index="2" />
+          <Item Id="DevExpress.Persistent.BaseImpl.Event_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ApplicationRole_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.Attachment_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetAccount_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetPlanningAndUsage_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetTransfer_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.Company_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectRole_ListView" Removed="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberRole_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Budget" Index="1" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_ListView_Copy" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectResource_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetAccount_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.BudgetAccount_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetPlanningAndUsage_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.BudgetPlanningAndUsage_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.BudgetTransfer_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.BudgetTransfer_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Settings" ImageName="BO_Folder" Index="2" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.Company_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.Company_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectMember_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectResource_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectResource_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ApplicationRole_ListView_Copy" ViewId="ProjectSchedule.Module.BusinessObjects.ApplicationRole_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectRole_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectRole_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Permissions" Index="3" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView_Copy" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_ListView_Copy" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectMember_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ApplicationRole_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.ApplicationRole_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.ProjectRole_ListView_Copy" ViewId="ProjectSchedule.Module.BusinessObjects.ProjectRole_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="ProjectSchedule.Module.BusinessObjects.TaskMemberRole_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.TaskMemberRole_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Misc" Index="4" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="ProjectSchedule.Module.BusinessObjects.Attachment_ListView" ViewId="ProjectSchedule.Module.BusinessObjects.Attachment_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="13.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views></Views>
+</Application>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ProjectMember" IsDesigned="True" />
+  </BOModel>
+  <Views>
+    <DetailView Id="ProjectSchedule.Module.BusinessObjects.ProjectMember_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="44" ImageName="">
+            <LayoutGroup Id="ProjectMember" RelativeSize="27" ImageName="">
+              <LayoutItem Id="IsActive" SizeConstraintsType="Default" RelativeSize="36" ViewItem="IsActive" />
+              <LayoutItem Id="UserName" SizeConstraintsType="Default" RelativeSize="28" ViewItem="UserName" />
+              <LayoutItem Id="ChangePasswordOnFirstLogon" SizeConstraintsType="Default" RelativeSize="34" ViewItem="ChangePasswordOnFirstLogon" />
+            </LayoutGroup>
+            <LayoutGroup Id="Person" RelativeSize="36" ImageName="">
+              <LayoutGroup Id="Person_col1" RelativeSize="48" ImageName="">
+                <LayoutItem Id="FirstName" SizeConstraintsType="Default" RelativeSize="36" ViewItem="FirstName" />
+                <LayoutItem Id="LastName" SizeConstraintsType="Default" RelativeSize="27" ViewItem="LastName" />
+                <LayoutItem Id="MiddleName" SizeConstraintsType="Default" RelativeSize="36" ViewItem="MiddleName" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="48" ImageName="">
+                <LayoutItem Id="Birthday" SizeConstraintsType="Default" RelativeSize="36" ViewItem="Birthday" />
+                <LayoutItem Id="FullName" SizeConstraintsType="Default" RelativeSize="27" ViewItem="FullName" />
+                <LayoutItem Id="Email" SizeConstraintsType="Default" RelativeSize="36" ViewItem="Email" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="35" ImageName="">
+              <LayoutItem Id="Photo" SizeConstraintsType="Default" RelativeSize="27" ViewItem="Photo" />
+              <LayoutItem Id="Address1" SizeConstraintsType="Default" RelativeSize="22" ViewItem="Address1" />
+              <LayoutItem Id="Address2" SizeConstraintsType="Default" RelativeSize="22" ViewItem="Address2" />
+              <LayoutItem Id="DisplayName" SizeConstraintsType="Default" RelativeSize="27" ViewItem="DisplayName" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="56">
+            <LayoutGroup Id="SuperviseForMembers" RelativeSize="100" ImageName="BO_Person">
+              <LayoutItem Id="SuperviseForMembers" SizeConstraintsType="Default" RelativeSize="100" ViewItem="SuperviseForMembers" />
+            </LayoutGroup>
+            <LayoutGroup Id="ReportToMembers" RelativeSize="100" ImageName="BO_Person">
+              <LayoutItem Id="ReportToMembers" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ReportToMembers" />
+            </LayoutGroup>
+            <LayoutGroup Id="ProjectTasks" RelativeSize="100" ImageName="BO_Task">
+              <LayoutItem Id="ProjectTasks" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ProjectTasks" />
+            </LayoutGroup>
+            <LayoutGroup Id="TaskMemberRoles" RelativeSize="100" ImageName="Action_Security_ChangePassword">
+              <LayoutItem Id="TaskMemberRoles" SizeConstraintsType="Default" RelativeSize="100" ViewItem="TaskMemberRoles" />
+            </LayoutGroup>
+            <LayoutGroup Id="TaskMemberRolesGranted" RelativeSize="100" ImageName="Action_Security_ChangePassword">
+              <LayoutItem Id="TaskMemberRolesGranted" SizeConstraintsType="Default" RelativeSize="100" ViewItem="TaskMemberRolesGranted" />
+            </LayoutGroup>
+            <LayoutGroup Id="Comments" RelativeSize="100" ImageName="BO_Note">
+              <LayoutItem Id="Comments" SizeConstraintsType="Default" RelativeSize="100" ViewItem="Comments" />
+            </LayoutGroup>
+            <LayoutGroup Id="ProjectEvents" RelativeSize="100" ImageName="BO_Scheduler">
+              <LayoutItem Id="ProjectEvents" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ProjectEvents" />
+            </LayoutGroup>
+            <LayoutGroup Id="WorkForCompanies" RelativeSize="100" ImageName="BO_Organization">
+              <LayoutItem Id="WorkForCompanies" SizeConstraintsType="Default" RelativeSize="100" ViewItem="WorkForCompanies" />
+            </LayoutGroup>
+            <LayoutGroup Id="BudgetAccounts" RelativeSize="100" ImageName="BO_Report">
+              <LayoutItem Id="BudgetAccounts" SizeConstraintsType="Default" RelativeSize="100" ViewItem="BudgetAccounts" />
+            </LayoutGroup>
+            <LayoutGroup Id="PhoneNumbers" RelativeSize="100" ImageName="">
+              <LayoutItem Id="PhoneNumbers" SizeConstraintsType="Default" RelativeSize="100" ViewItem="PhoneNumbers" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

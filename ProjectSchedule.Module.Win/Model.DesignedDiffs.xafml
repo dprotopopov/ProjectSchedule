@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="13.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="DefaultTaskView">
+      <Items>
+        <ControlDetailItem Id="Button" ControlTypeName="System.Windows.Forms.Button" Caption="Add" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Form">
+          <LayoutItem Id="Button" ViewItem="Button" TextAlignMode="AutoSize" ShowCaption="False" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

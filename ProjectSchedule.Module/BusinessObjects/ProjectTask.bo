@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="ProjectSchedule.Module.BusinessObjects.ProjectTask" IsDesigned="True" DefaultDetailView="DefaultTaskView" />
+  </BOModel>
+  <Views>
+    <DetailView Id="DefaultTaskView" ImageName="BO_Report" AllowDelete="False" AllowEdit="True" AllowNew="False" ClassName="ProjectSchedule.Module.BusinessObjects.ProjectTask" IsNewNode="True">
+      <Items IsNewNode="True">
+        <PropertyEditor Id="Subject" PropertyName="Subject" AllowEdit="False" Index="0" IsNewNode="True" />
+        <PropertyEditor Id="StartDate" PropertyName="StartDate" AllowEdit="False" Index="1" IsNewNode="True" />
+        <PropertyEditor Id="DueDate" PropertyName="DueDate" AllowEdit="False" Index="2" IsNewNode="True" />
+        <PropertyEditor Id="Description" PropertyName="Description" AllowEdit="False" Index="3" IsNewNode="True" />
+        <PropertyEditor Id="Comments" Caption="Comments" PropertyName="Comments" Index="4" LinkView="ProjectSchedule.Module.BusinessObjects.Comment_LookupListView" AllowEdit="False" IsNewNode="True" />
+        <PropertyEditor Id="Comment" PropertyName="Comment" Index="5" IsNewNode="True" />
+        <PropertyEditor Id="Attachments" Caption="Attachments" PropertyName="Attachments" Index="6" IsNewNode="True" />
+        <PropertyEditor Id="BudgetAccounts" Caption="BudgetAccounts" PropertyName="BudgetAccounts" Index="7" IsNewNode="True" />
+        <PropertyEditor Id="Files" PropertyName="Files" Index="8" IsNewNode="True" />
+        <PropertyEditor Id="ParentTasks" Caption="ParentTasks" PropertyName="ParentTasks" Index="9" IsNewNode="True" />
+        <PropertyEditor Id="ProjectEvents" Caption="ProjectEvents" PropertyName="ProjectEvents" Index="10" IsNewNode="True" />
+        <PropertyEditor Id="ProjectMembers" Caption="ProjectMembers" PropertyName="ProjectMembers" Index="11" IsNewNode="True" />
+        <PropertyEditor Id="SubTasks" Caption="SubTasks" PropertyName="SubTasks" Index="12" IsNewNode="True" />
+        <PropertyEditor Id="TaskMemberRoles" Caption="TaskMemberRoles" PropertyName="TaskMemberRoles" Index="13" IsNewNode="True" />
+        <ControlDetailItem Id="Button" Caption="Add" ControlTypeName="Nothing" Index="14" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" ShowCaption="False" Index="0" RelativeSize="15" VerticalAlign="NotSet" IsNewNode="True">
+          <LayoutItem Id="Subject" ViewItem="Subject" Index="0" SizeConstraintsType="Default" RelativeSize="28" IsNewNode="True" />
+          <LayoutItem Id="StartDate" ViewItem="StartDate" Index="1" SizeConstraintsType="Default" RelativeSize="22" IsNewNode="True" />
+          <LayoutItem Id="DueDate" ViewItem="DueDate" Index="2" SizeConstraintsType="Default" RelativeSize="22" IsNewNode="True" />
+          <LayoutItem Id="Description" ViewItem="Description" Index="3" SizeConstraintsType="Default" RelativeSize="27" IsNewNode="True" />
+        </LayoutGroup>
+        <LayoutItem Id="Comments" ViewItem="Comments" SizeConstraintsType="Default" Index="1" RelativeSize="70" IsNewNode="True" />
+        <LayoutGroup Id="Form" VerticalAlign="NotSet" ShowCaption="True" Index="2" RelativeSize="15" Caption="Comment" IsNewNode="True">
+          <LayoutItem Id="Comment" ViewItem="Comment" SizeConstraintsType="Default" Index="0" RelativeSize="5" ShowCaption="False" IsNewNode="True" />
+          <LayoutItem Id="Files" ViewItem="Files" SizeConstraintsType="Default" Index="1" RelativeSize="5" ShowCaption="False" IsNewNode="True" />
+          <LayoutItem Id="Button" ViewItem="Button" ShowCaption="False" Index="2" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+      <Variants IsNewNode="True">
+        <Variant Id="Default" ViewID="DefaultTaskView" Caption="Default" Index="0" IsNewNode="True" />
+        <Variant Id="Detail" Caption="Detail" ViewID="ProjectSchedule.Module.BusinessObjects.ProjectTask_DetailView" Index="1" IsNewNode="True" />
+      </Variants>
+    </DetailView>
+    <DetailView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="21" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Task" Index="0" RelativeSize="100" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutGroup Id="Task_col1" RelativeSize="38" ImageName="" Caption="Task_col1" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+                <LayoutItem Id="Subject" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Subject" />
+                <LayoutItem Id="DueDate" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="DueDate" />
+                <LayoutItem Id="StartDate" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="StartDate" />
+                <LayoutItem Id="AssignedTo" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="AssignedTo" />
+              </LayoutGroup>
+              <LayoutGroup Id="Task_col2" RelativeSize="58" ImageName="" Caption="Task_col2" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+                <LayoutItem Id="Status" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Status" />
+                <LayoutItem Id="PercentCompleted" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="PercentCompleted" />
+                <LayoutItem Id="DateCompleted" SizeConstraintsType="Default" RelativeSize="50" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="DateCompleted" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="4" ImageName="" Caption="Description" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutItem Id="Description" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="0" ViewItem="Description" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="74" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="ParentTasks" RelativeSize="100" ImageName="BO_Task" Caption="Parent Tasks" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="ParentTasks" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="ParentTasks" />
+            </LayoutGroup>
+            <LayoutGroup Id="SubTasks" RelativeSize="100" ImageName="BO_Task" Caption="Sub Tasks" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="SubTasks" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="SubTasks" />
+            </LayoutGroup>
+            <LayoutGroup Id="Comments" RelativeSize="100" ImageName="BO_Note" Caption="Comments" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="Comments" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="Comments" />
+            </LayoutGroup>
+            <LayoutGroup Id="ProjectEvents" RelativeSize="100" ImageName="BO_Scheduler" Caption="Project Events" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="ProjectEvents" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="ProjectEvents" />
+            </LayoutGroup>
+            <LayoutGroup Id="ProjectMembers" Caption="Project Members" ImageName="BO_Person" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100">
+              <LayoutItem Id="ProjectMembers" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" RelativeSize="100" ViewItem="ProjectMembers" />
+            </LayoutGroup>
+            <LayoutGroup Id="Attachments" Caption="Attachments" ImageName="BO_FileAttachment" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100">
+              <LayoutItem Id="Attachments" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" RelativeSize="100" ViewItem="Attachments" />
+            </LayoutGroup>
+            <LayoutGroup Id="BudgetAccounts" Caption="Budget Accounts" ImageName="BO_Report" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100" Index="6">
+              <LayoutItem Id="BudgetAccounts" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" RelativeSize="100" ViewItem="BudgetAccounts" />
+            </LayoutGroup>
+            <LayoutGroup Id="TaskMemberRoles" Caption="Task Member Roles" ImageName="Action_Security_ChangePassword" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100" Index="7">
+              <LayoutItem Id="TaskMemberRoles" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" SizeConstraintsType="Default" RelativeSize="100" ViewItem="TaskMemberRoles" />
+            </LayoutGroup>
+            <LayoutGroup Id="Files" RelativeSize="100" ImageName="" Removed="True">
+              <LayoutItem Id="Files" SizeConstraintsType="Default" RelativeSize="100" ViewItem="Files" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ProjectSchedule.Module.BusinessObjects.ProjectTask_ListView" MasterDetailMode="ListViewAndDetailView" />
+  </Views>
+</Application>

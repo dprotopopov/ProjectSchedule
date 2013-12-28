@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ProjectSchedule.Win")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Project Schedule")]
+[assembly: AssemblyDescription("Project management system")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("-")]
-[assembly: AssemblyProduct("ProjectSchedule.Win")]
-[assembly: AssemblyCopyright("Copyright © - 2007")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("RBA DESIGN INTERNATIONAL LLC")]
+[assembly: AssemblyProduct("Project Schedule")]
+[assembly: AssemblyCopyright("Copyright © RBA DESIGN INTERNATIONAL LLC 2014")]
+[assembly: AssemblyTrademark("All rights reserved")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

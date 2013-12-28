@@ -13,3 +13,8 @@ D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.cs
 D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.exe.licenses
 D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.exe
 D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.pdb
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Win.exe.manifest
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\bin\Debug\ProjectSchedule.Win.application
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.TrustInfo.xml
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.exe.manifest
+D:\Projects\ProjectSchedule\ProjectSchedule.Win\obj\Debug\ProjectSchedule.Win.application
